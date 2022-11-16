@@ -128,24 +128,12 @@ class _RegisterState extends State<Register> {
                     TextButton(onPressed: (){
                       Navigator.pushNamed(context, 'login');
                     }, child: Text("Login")),
-
-
                   ],
                 ),
-
               ),
-
-           
-
-
-
-
-
-
           ],
         ),
       ),
-      
     );
   }
 }
